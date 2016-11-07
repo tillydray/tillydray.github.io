@@ -1,0 +1,66 @@
+div {
+  box-sizing: border-box;
+}
+
+#container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#container {
+  :nth-child(1) {
+    height: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    font-size: 20px;
+  }
+  :nth-child(2) {
+    top: 1500px;
+    /*height: 1000px;*/
+    position: relative;
+    transform-style: preserve-3d;
+    font-size: 20px;
+    }
+  }
+
+
+/*#group1 {
+  height: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}*/
+
+/*#group2 {
+  height: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}*/
+
+.background {
+  transform: translateZ(-1px) scale(2.01);
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: calc(250px - 50vh);
+  background: #FF8A8A;
+  padding-top: 100px;
+
+}
+
+.foreground {
+  position: absolute;
+  top: 500px;
+  height: 500px;
+  width: 100%;
+  background: #23819C;
+  opacity: 0.8;
+  padding-top: 100px;
+}
