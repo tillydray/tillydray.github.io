@@ -1,66 +1,63 @@
-div {
-  box-sizing: border-box;
+body {
+  /*max-width: 960px;*/
 }
 
-#container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  perspective: 1px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-#container {
-  :nth-child(1) {
-    height: 1000px;
-    position: relative;
-    transform-style: preserve-3d;
-    font-size: 20px;
-  }
-  :nth-child(2) {
-    top: 1500px;
-    /*height: 1000px;*/
-    position: relative;
-    transform-style: preserve-3d;
-    font-size: 20px;
-    }
-  }
-
-
-/*#group1 {
-  height: 1000px;
-  position: relative;
-  transform-style: preserve-3d;
-  font-size: 20px;
-}*/
-
-/*#group2 {
-  height: 1000px;
-  position: relative;
-  transform-style: preserve-3d;
-  font-size: 20px;
-}*/
-
-.background {
-  transform: translateZ(-1px) scale(2.01);
-  height: 500px;
+nav {
   width: 100%;
-  position: absolute;
-  top: calc(250px - 50vh);
-  background: #FF8A8A;
-  padding-top: 100px;
+  height: 100px;
+  /*position: relative;*/
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgray;
+}
+
+nav > h2 {
+  padding: 0 60px;
+}
+
+.parallax_section {
+  height: 92vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% auto;
+  position: relative;
+  transform: translateZ(1px) scale(1.08);
+  /*background-size: cover;*/
 
 }
 
-.foreground {
-  position: absolute;
-  top: 500px;
-  height: 500px;
-  width: 100%;
-  background: #23819C;
-  opacity: 0.8;
-  padding-top: 100px;
+.section_title, .content_block {
+  vertical-align: baseline; /* NOTE SEE IF THIS WORKS */
+  /*width: 980px;*/
+  margin: 0 auto;
+}
+
+.section_title {
+  font-size: 4rem;
+  display: block; /* NOTE SEE IF THIS WORKS */
+  text-align: center;
+  /* position: absolute;  NOTE SEE IF THIS WORKS */
+}
+
+.content_block {
+  height: 350px;
+}
+
+.icon {
+  max-width: 75px;
+}
+
+
+.parallax_image_first {
+  background-image: url("https://i.imgur.com/Mw4qkpM.jpg");
+}
+.parallax_image_second { /* this is just a placeholder image */
+  background-image: url("https://images.unsplash.com/photo-1422748956421-2d6326b6d9d6?dpr=1&auto=format&fit=crop&w=1500&h=2284&q=80&cs=tinysrgb&crop=");
+}
+.parallax_image_third {
+  background-image: url("https://images.unsplash.com/photo-1466854076813-4aa9ac0fc347?dpr=1&auto=format&fit=crop&w=1500&h=844&q=80&cs=tinysrgb&crop=");
+}
+.parallax_image_fourth {
+  background-image: url("https://images.unsplash.com/photo-1450740199001-78e928502994?dpr=1&auto=format&fit=crop&w=1500&h=994&q=80&cs=tinysrgb&crop=");
 }
