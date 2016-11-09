@@ -44,38 +44,41 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} /* END CSS RESET */
 
+/* BEGIN MY PAGE STYLING */
 
-body {
-
-}
-
+/* ###################### */
+/* ###### NAV BAR ####### */
+/* ###################### */
 nav {
-  /*position: relative;*/
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 115px;
   margin-bottom: 35px;
 }
-
 #page-title-nav, #contact-nav {
   padding: 40px 60px;
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
+  text-transform: uppercase;
 }
-
+#contact-nav {
+  font-size: 1.25rem;
+}
 h2 > a {
   text-decoration: none;
   color: #444;
 }
-
-
 h2 > a:hover {
   font-size: 103%;
   color: #999;
 }
 
+/* ###################### */
+/* ####### MAIN ######### */
+/* ###################### */
 .parallax_section {
   height: 92vh;
   background-repeat: no-repeat;
@@ -86,17 +89,12 @@ h2 > a:hover {
   position: relative;
   transform: translateZ(1px) scale(1.08);
 }
-
-.images {
-}
-
 .section_title, .content_block {
   opacity: 0.6;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-
 .section_title {
   font-size: 5rem;
   text-align: center;
@@ -105,7 +103,6 @@ h2 > a:hover {
   font-weight: 500;
   letter-spacing: 0.5rem;
 }
-
 .content_block {
   height: 60vh;
   font-size: 2rem;
@@ -113,20 +110,22 @@ h2 > a:hover {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* ###################### */
+/* ###### BOTTOM ######## */
+/* ###################### */
+
 #form-and-cloud-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 60vh;
 }
-
 #form-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 45px
 }
-
 .word-cloud-wrapper {
   /*display: flex;
   justify-content: center;
@@ -138,53 +137,44 @@ h2 > a:hover {
   list-style: none;
   text-align: justify;
 }
-
 h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 2.5rem;
   text-align: center;
   padding: 10px;
-  color: #333; 
+  color: #333;
 }
-
 .word-cloud__word {
   display: inline-block;
   font-size: 18px;
   line-height: 24px;
   color: #90d6f3;
 }
-
 .word-cloud__word:hover {
   transform: scale(1.1);
 }
-
 /*.word-cloud__word--x-small,*/
 .word-cloud__word--small {
   font-weight: 100;
 }
-
 /* Unused for now */
 /*.word-cloud__word--x-small {
   font-size: 10px;
   color: #c6e8f7;
 }*/
-
 .word-cloud__word--small {
   font-size: 13px;
   color: #b0def2;
 }
-
 .word-cloud__word--large {
   font-size: 22px;
   color: #0fa0dd;
 }
-
 .word-cloud__word--x-large {
   font-size: 32px;
   letter-spacing: -0.0125em;
   color: #0a79a7;
 }
-
 #icon-wrapper {
   display: flex;
   /*height: 80vh;*/
@@ -198,6 +188,15 @@ h3 {
   transform: scale(1.1);
 }
 
+/* ###################### */
+/* ###### FOOTER ######## */
+/* ###################### */
+
+
+
+/* ###################### */
+/* ## MAIN IMAGE LINKS ## */
+/* ###################### */
 
 .parallax_image_first {
   background-image: url("https://i.imgur.com/Mw4qkpM.jpg");
