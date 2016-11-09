@@ -89,25 +89,38 @@ h2 > a:hover {
   position: relative;
   transform: translateZ(1px) scale(1.08);
 }
-.section_title, .content_block {
-  opacity: 0.6;
+.text_on_image, .content_block_wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.section_title {
+.images {
+  opacity: 0.7;
+}
+.text_on_image {
   font-size: 5rem;
   text-align: center;
-  color: #000;
+  color: #222;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   letter-spacing: 0.5rem;
 }
-.content_block {
+.content_block_wrapper {
   height: 60vh;
-  font-size: 2rem;
   padding: 0 10%;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+}
+.content_block_heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.content_block_content {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1.1;
 }
 
 /* ###################### */
