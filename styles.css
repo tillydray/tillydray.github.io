@@ -1,18 +1,73 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  /*max-width: 960px;*/
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+
 }
 
 nav {
-  width: 100%;
-  height: 100px;
   /*position: relative;*/
   display: flex;
   justify-content: space-between;
-  background-color: darkgray;
+  height: 115px;
+  background-color: gray;
+  margin-bottom: 35px;
 }
 
 nav > h2 {
-  padding: 0 60px;
+  padding: 20px 60px;
+}
+
+:link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
 }
 
 .parallax_section {
@@ -21,31 +76,59 @@ nav > h2 {
   background-attachment: fixed;
   background-size: cover;
   background-position: 100% auto;
+  /*background-position: 0 60px;*/
   position: relative;
   transform: translateZ(1px) scale(1.08);
-  /*background-size: cover;*/
+}
 
+.images {
 }
 
 .section_title, .content_block {
-  vertical-align: baseline; /* NOTE SEE IF THIS WORKS */
-  /*width: 980px;*/
-  margin: 0 auto;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .section_title {
   font-size: 4rem;
-  display: block; /* NOTE SEE IF THIS WORKS */
   text-align: center;
-  /* position: absolute;  NOTE SEE IF THIS WORKS */
+  color: #222;
+  font-family: 'Raleway', sans-serif;
 }
 
 .content_block {
-  height: 350px;
+  height: 80vh;
+  font-size: 2rem;
+  padding: 0 10%;
+  font-family: 'Raleway', sans-serif;
 }
 
+#form-wrapper {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  background: url("http://www.freeiconspng.com/uploads/black-mail-icon-4.png");
+  height: 50px;
+  width: 50px;
+}
+
+#icon-wrapper {
+  display: flex;
+  /*height: 80vh;*/
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
 .icon {
-  max-width: 75px;
+  max-width: 50px;
+}
+.icon:hover {
+  transform: scale(1.1);
 }
 
 
@@ -53,11 +136,11 @@ nav > h2 {
   background-image: url("https://i.imgur.com/Mw4qkpM.jpg");
 }
 .parallax_image_second { /* this is just a placeholder image */
-  background-image: url("https://images.unsplash.com/photo-1422748956421-2d6326b6d9d6?dpr=1&auto=format&fit=crop&w=1500&h=2284&q=80&cs=tinysrgb&crop=");
+  background-image: url("https://lh3.googleusercontent.com/IJlWAqdrT_iOkRgcTRsi-WP6Wra43MjJBw0dPldHROgiue_ANuf4eiHjiMgIXJAFEDocE_vJfFj8w8-wzouZb5z_MRjmGCmwiFRk2REVqXKQ6X320A1As9dsec2urqo7haeT-koFrh2bxo3tX0ORVl9IqhqhY7Nesvy7dFS_uMws-z6w6ToyDWa74n8HmC2JUQ8S4gzgOLrNWCSVGGVGyrE4u3HVKGgRN5bdzq_uoD6xI7SSGtqgPXc-SDwwvMPen0-EtGTaCkzGiSI552t9FSiYrPOqN5MJ3DyFQCBW2P5A3Nu3we407fAHEGNtBummE52rZ8wu60cmwTw7TEqdPF4HPbkAFG2AdbO2H41Z1fXGNzkjaqhEbnfEw9Xkv8GPGVxZzfEmxb62cdb87_xYzbI6Kodj7s7CODZtXcNvQx0amQ_9i5rTIyUd1HnlyxfGrd1-Mmu_yLVTY03Rbv1JBcfHpLo8Kq090yxjewCsZpum5CQ7XxKGHeQ_PIUuFxRKKmJ9Bv41A02PzUM4itM3iVmUr7F_MjX99496ES2EKVKF1yBY5kHI6i5JCxNgaqGoV_h4VGoy0Tz-0vTC9a1uwrmQ0gdJmbXMxxGhiHMMIOE6sZut=w1380-h776-no");
 }
 .parallax_image_third {
-  background-image: url("https://images.unsplash.com/photo-1466854076813-4aa9ac0fc347?dpr=1&auto=format&fit=crop&w=1500&h=844&q=80&cs=tinysrgb&crop=");
+  background-image: url("https://lh3.googleusercontent.com/h8JbHeWbzZGtjdRQPE05s-0nGv5gLmGMp94KCWAoh-E5tKJ0JGBB959KswSHzpdRg_quTm5Wkd7kdsqoiVdARfD_sQ3Ci2_UK-yBl-IvrrUdz-dtO4jn-0bFFUGliwypapEC7l1c566etB_CYlVGSstgCckiC8zB1x15LiUmZMgx5rsSVmGE8TpcriBuaWub7b7KNPQQbd6clRCzaPgTvCOJGApQjCo9UOWSFLf7LZ-4NySE89c5yX_QWBMV9E5ENrZQcj5mZlMLaPqU6EeF-iovsb51BGi8zl7vY6WYL5vPFjufDd-7onpkjjlgmLBbt42L4UhMO9VIApWiyB3kfB2vg05u_GzK0BWKqGKzwGidf7i4JbIaHa48BTJhDN5CQXypB8BSLEZ-1P_XVgstmjo3rzQd1-0VLUiXcnWIW56tmuF2M66j_0_SonVhbDXqNGBcbZ19PO-znO6CjrWFTfJ0Ik7IHsaQVmz0K2CfBPtienfPLUT-wwxfo6iaTfzJ97ZP1xLnG8HuSw8Jt08T5jodySevlAnyAAwnHfncqCao81x9h_E_w40yr7DRJSXDRwqSxTCXQCUORLBtU4CXj5fSY_QNr0Kz8k55xgBT4qwA1Cq-=w1380-h776-no");
 }
 .parallax_image_fourth {
-  background-image: url("https://images.unsplash.com/photo-1450740199001-78e928502994?dpr=1&auto=format&fit=crop&w=1500&h=994&q=80&cs=tinysrgb&crop=");
+  background-image: url("https://lh3.googleusercontent.com/FR-p9W4NGdvAQtcIhtWyrupfnuhW-lFZm_q3vmc0dZfe1bZTfnJHiHASNpoR0yaBHUSbMia_dbMSr1OrcJZY8YjzG9RPa160BnhR4_FWBOIcTjtHs1I3PjrXYUiZ0hW3kDi5IcvLEUm8heRzJlSAMwPdmne1GAjfsyx_wQC-X9mb67HE9k1ZiDt0ABGtuMRrHtsNhjwuw0bbagDW5Ch8TnVFlwNiCazz1QUSyJ72Pf2E-m1h0shCujWAdjK-LNELh_DRJrPWO_ext76dR7YVqvkgg96yhpjbR_OwXSYDG_Opu1V3Ztc4J8gkJHO4m0QhQlAGkolsMuT96X_rkh0Rp0u0-Gu3TqqA_FCVsja8IJO7tn8L762LZA92AxR9R4yQnJMz4HLpptBMlUEZHPNHUSSaIEMQ4jvLlVJeEIE_1JKS41WykzqOE0fUiQpp9g0JNaBFze4AMFkZgDqCYfp_H8cS-KijkXtx-va6M_GREYq5tstv8co-dTbQzM2HFs6ZPoYoOJixdUP9mTBrt2aPZ17MFNu1Z9na104HFnJHnGw8nN3UwMe_e8TnApXHftL3wkh3J0F9hAorKxLZ_rR7pCrFovtGGFEuH0UD0VAP-_zBJCi_=w1380-h776-no");
 }
