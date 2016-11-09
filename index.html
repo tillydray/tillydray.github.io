@@ -1,57 +1,94 @@
-<html><head>
-    <meta charset="utf-8">
-    <title>Jason M. Fry</title>
-    <link rel="stylesheet" href="styles.css" media="screen" title="no title">
-    <link rel="stylesheet" href="emailFormStyles.css" media="screen" title="no title">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jason M. Fry</title>
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title">
+  <link rel="stylesheet" href="emailFormStyles.css" media="screen" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500" rel="stylesheet">
 
-  </head>
-  <body>
-    <nav>
-      <h2 class="page-title left"><a href="#">Jason M. Fry</a></h2>
-      <h2 class="right"><a href="#">Contact</a></h2>
-    </nav>
+</head>
+<body>
+  <nav>
+    <h2 id="page-title-nav"><a href="#">Jason M. Fry</a></h2>
+    <h2 id="contact-nav"><a href="#">Contact</a></h2>
+  </nav>
 
-    <div class="parallax_section images parallax_image_first section_title">
-        Hi, I'm Jason.
-    </div>
-    <div class="content_block">
-        I'm a full stack web developer.  Most recently, I am a graduate of General Assembly's Web Developer Immersive course, but my interest in tech goes back to a game called Reader Rabbit when I was 5.  And my interest in programming goes back to high school when I took both C++ and Visual Basic.
-    </div>
+  <div class="parallax_section images parallax_image_first section_title">
+      Hi, I'm Jason.
+  </div>
+  <div class="content_block">
+      I'm a full stack web developer.  Most recently, I am a graduate of General Assembly's Web Developer Immersive course, but my interest in tech goes back to a game called Reader Rabbit when I was 5.  And my interest in programming goes back to high school when I took both C++ and Visual Basic.
+  </div>
 
-    <div class="parallax_section images parallax_image_second section_title">
-      Who I am.  What I do.
-    </div>
-    <div class="content_block">
-      I am an early adopter and evangelist of great ideas, selflessly dedicated to empowering others, and focused on competency and outcomes, I shepherd others to win-win-win situations.
-    </div>
+  <div class="parallax_section images parallax_image_second section_title">
+    <p>Who I am.</p><br>
+    <p>What I do.</p>
+  </div>
+  <div class="content_block">
+    I am an early adopter and evangelist of great ideas, selflessly dedicated to empowering others, and focused on competency and outcomes.  I shepherd others to win-win-win situations.
+  </div>
 
-    <div class="parallax_section images parallax_image_third section_title">
-      These days...
-    </div>
-    <div class="content_block">
-      I'm designing and developing websites that meet the client's needs and wants.  I'm slightly obsessed with the upcoming CSS Grid Layout Module.  I'm making my city better as an active member of Code for Gainesville.  Oh, and I'm busy loving on my wife and our newborn son.
-    </div>
+  <div class="parallax_section images parallax_image_third section_title">
+    These days...
+  </div>
+  <div class="content_block">
+    I'm designing and developing websites that meet the client's needs and wants.  I'm slightly obsessed with the upcoming CSS Grid Layout Module.  I'm making my city better as an active member of Code for Gainesville.  Oh, and I'm busy loving on my wife and our newborn son.
+  </div>
 
-    <div class="parallax_section images parallax_image_fourth section_title">
-      Reach Out
-    </div>
+  <div class="parallax_section images parallax_image_fourth section_title">
+    What's next?
+  </div>
+
+  <div id="form-and-cloud-wrapper">
     <div id="form-wrapper">
+      <h3>Contact Me</h3>
       <form class="grayform" action="mailto:me@jasonmfry.com" method="post">
         <input type="text" name="name" placeholder="name">
         <input type="text" name="email" placeholder="email">
         <input type="text" name="subject" placeholder="subject">
-        <input type="textarea" name="message" placeholder="message">
+        <textarea name="message" placeholder="message"></textarea>
         <button type="submit" name="submit">Send</button>
         <button type="reset" value="Reset">Reset</button>
       </form>
     </div>
+    <div class="word-cloud-wrapper">
+      <h3>Skills</h3>
+      <ul>
+        <li class="word-cloud__word  word-cloud__word--x-large">Ruby</li>
+        <li class="word-cloud__word word-cloud__word--small">Test-Driven Development</li>
+        <li class="word-cloud__word  word-cloud__word--large">CSS</li>
+        <li class="word-cloud__word  word-cloud__word--x-large">HTML</li>
+        <li class="word-cloud__word">MVC Pattern</li>
+        <li class="word-cloud__word  word-cloud__word--small">ERDs</li>
+        <li class="word-cloud__word  word-cloud__word--large">MongoDB</li>
+        <li class="word-cloud__word">Authentication</li>
+        <li class="word-cloud__word  word-cloud__word--large">Git</li>
+        <li class="word-cloud__word  word-cloud__word--x-large">Leadership</li>
+        <li class="word-cloud__word">Wireframing</li>
+        <li class="word-cloud__word  word-cloud__word--large">Agile Development/Scrum</li>
+        <li class="word-cloud__word  word-cloud__word--small">PstgreSQL</li>
+        <li class="word-cloud__word  word-cloud__word--large">Github</li>
+        <li class="word-cloud__word  word-cloud__word--x-large">JavaScript</li>
+        <li class="word-cloud__word">Command Line</li>
+        <li class="word-cloud__word">jQuery</li>
+        <li class="word-cloud__word  word-cloud__word--large">OOP</li>
+        <li class="word-cloud__word">AngularJS</li>
+        <li class="word-cloud__word  word-cloud__word--large">User Stories</li>
+        <li class="word-cloud__word  word-cloud__word--x-large">Rails</li>
+        <li class="word-cloud__word  word-cloud__word--large">Responsive Design</li>
+        <li class="word-cloud__word  word-cloud__word--x-large">Conflict Resolution</li>
+      </ul>
+    </div>
+  </div>
 
-    <div id="icon-wrapper">
-      <a href="http://linkedin.com/in/jason-m-fry"><img class="icon" src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png" alt="" /></a>
-      <a href="https://jasonmfry.wordpress.com/"><img class="icon" src="https://image.freepik.com/free-icon/wordpress-small-social-circle_318-25372.jpg" alt="" /></a>
-      <a href="https://codepen.io/Auslegung/pens/public/"><img class="icon" src="http://blog.codepen.io/wp-content/uploads/2014/03/codepen-logo.svg" alt="" /></a>
-      <a href="https://github.com/Auslegung?tab=repositories"><img class="icon" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
+  <div id="icon-wrapper">
+    <a href="http://linkedin.com/in/jason-m-fry" target="_blank"><img class="icon" src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png" alt="" /></a>
+    <a href="https://jasonmfry.wordpress.com/" target="_blank"><img class="icon" src="https://image.freepik.com/free-icon/wordpress-small-social-circle_318-25372.jpg" alt="" /></a>
+
+    <a href="https://drive.google.com/file/d/0B9WZzvSon2d2RGN5UXRheVhpcEU/view" target="_blank"><img class="icon" src="http://www.freeiconspng.com/uploads/resume-icon-png-1.png" alt="icon of a resume"/></a>
+
+    <a href="https://codepen.io/Auslegung/pens/public/" target="_blank"><img class="icon" src="http://blog.codepen.io/wp-content/uploads/2014/03/codepen-logo.svg" alt="" /></a>
+    <a href="https://github.com/Auslegung?tab=repositories" target="_blank"><img class="icon" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
   </div>
 </body>
 </html>
