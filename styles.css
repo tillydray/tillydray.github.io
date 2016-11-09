@@ -106,10 +106,10 @@ h2 > a:hover {
   letter-spacing: 0.5rem;
 }
 .content_block_wrapper {
-  height: 60vh;
-  padding: 0 10%;
+  /*height: 70vh;*/
+  padding: 15% 10%;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .content_block_heading {
   text-align: center;
@@ -118,9 +118,8 @@ h2 > a:hover {
   margin-bottom: 2rem;
 }
 .content_block_content {
-  font-size: 1.1rem;
   font-weight: 400;
-  letter-spacing: 1.1;
+  letter-spacing: 1.75;
 }
 
 /* ###################### */
@@ -131,7 +130,16 @@ h2 > a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60vh;
+  padding: 10% 0;
+}
+@media screen and (max-width: 760px) {
+  #form-and-cloud-wrapper {
+    flex-direction: column;
+  }
+  .word-cloud-wrapper {
+    padding-top: 5%;
+    order: -1;
+  }
 }
 #form-wrapper {
   display: flex;
@@ -205,7 +213,19 @@ h3 {
 /* ###### FOOTER ######## */
 /* ###################### */
 
+footer {
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5vh;
+  color: #111;
+  background-color: #eee;
+}
 
+footer > a {
+  color: #111;
+}
 
 /* ###################### */
 /* ## MAIN IMAGE LINKS ## */
