@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
-h1, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -56,12 +56,13 @@ nav {
   display: flex;
   justify-content: space-between;
   height: 115px;
-  background-color: gray;
   margin-bottom: 35px;
 }
 
 nav > h2 {
   padding: 20px 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
 }
 
 :link {
@@ -85,7 +86,7 @@ nav > h2 {
 }
 
 .section_title, .content_block {
-  opacity: 0.7;
+  opacity: 0.6;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -94,15 +95,15 @@ nav > h2 {
 .section_title {
   font-size: 4rem;
   text-align: center;
-  color: #222;
+  color: #111;
   font-family: 'Raleway', sans-serif;
 }
 
 .content_block {
-  height: 80vh;
+  height: 60vh;
   font-size: 2rem;
   padding: 0 10%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #form-wrapper {
@@ -142,5 +143,5 @@ button {
   background-image: url("https://lh3.googleusercontent.com/h8JbHeWbzZGtjdRQPE05s-0nGv5gLmGMp94KCWAoh-E5tKJ0JGBB959KswSHzpdRg_quTm5Wkd7kdsqoiVdARfD_sQ3Ci2_UK-yBl-IvrrUdz-dtO4jn-0bFFUGliwypapEC7l1c566etB_CYlVGSstgCckiC8zB1x15LiUmZMgx5rsSVmGE8TpcriBuaWub7b7KNPQQbd6clRCzaPgTvCOJGApQjCo9UOWSFLf7LZ-4NySE89c5yX_QWBMV9E5ENrZQcj5mZlMLaPqU6EeF-iovsb51BGi8zl7vY6WYL5vPFjufDd-7onpkjjlgmLBbt42L4UhMO9VIApWiyB3kfB2vg05u_GzK0BWKqGKzwGidf7i4JbIaHa48BTJhDN5CQXypB8BSLEZ-1P_XVgstmjo3rzQd1-0VLUiXcnWIW56tmuF2M66j_0_SonVhbDXqNGBcbZ19PO-znO6CjrWFTfJ0Ik7IHsaQVmz0K2CfBPtienfPLUT-wwxfo6iaTfzJ97ZP1xLnG8HuSw8Jt08T5jodySevlAnyAAwnHfncqCao81x9h_E_w40yr7DRJSXDRwqSxTCXQCUORLBtU4CXj5fSY_QNr0Kz8k55xgBT4qwA1Cq-=w1380-h776-no");
 }
 .parallax_image_fourth {
-  background-image: url("https://lh3.googleusercontent.com/FR-p9W4NGdvAQtcIhtWyrupfnuhW-lFZm_q3vmc0dZfe1bZTfnJHiHASNpoR0yaBHUSbMia_dbMSr1OrcJZY8YjzG9RPa160BnhR4_FWBOIcTjtHs1I3PjrXYUiZ0hW3kDi5IcvLEUm8heRzJlSAMwPdmne1GAjfsyx_wQC-X9mb67HE9k1ZiDt0ABGtuMRrHtsNhjwuw0bbagDW5Ch8TnVFlwNiCazz1QUSyJ72Pf2E-m1h0shCujWAdjK-LNELh_DRJrPWO_ext76dR7YVqvkgg96yhpjbR_OwXSYDG_Opu1V3Ztc4J8gkJHO4m0QhQlAGkolsMuT96X_rkh0Rp0u0-Gu3TqqA_FCVsja8IJO7tn8L762LZA92AxR9R4yQnJMz4HLpptBMlUEZHPNHUSSaIEMQ4jvLlVJeEIE_1JKS41WykzqOE0fUiQpp9g0JNaBFze4AMFkZgDqCYfp_H8cS-KijkXtx-va6M_GREYq5tstv8co-dTbQzM2HFs6ZPoYoOJixdUP9mTBrt2aPZ17MFNu1Z9na104HFnJHnGw8nN3UwMe_e8TnApXHftL3wkh3J0F9hAorKxLZ_rR7pCrFovtGGFEuH0UD0VAP-_zBJCi_=w1380-h776-no");
+  background-image: url("https://lh3.googleusercontent.com/0yL6VXMPssOFWFFWbNDTLam0xQZEKQThaFdg_e8cl0SZoYmKySy_46wgPPRbKWnGd5GNJqGgt2tFie3uWILVu6mIeBjrTAeBKBihC6eevJ4mtx0uEOrQDhCD1r2j25zhC2OtZlj3aP7Bkpgu2Gs8FTz1sRrOoNYme-exEquMkMpOAy2sfRNGTh11ahz87AsxeMOrvmiKDtrWGqJA-zF0Ds8FCxYNXRK2H8_9u-eD4erG3THb_AFk-9U4swJkNJaPMqfD_1mgMUz1MXSF_h0ox-NC1BvzPrnXpv8_Lr6dtHATz5FP4gPbdmTDPThGIUfi36qEBpFg130x8R1TBPEPK6gpkCO2c1bOuVNgVFeJ72IXQILcpMRT9XSeWcDG39cqVoOEf_0eEvbzUGldXQgfBSjjBIpN2mjJxBzOeFy2L5lnAaBV5AiLMwc2LHBEXPA7W7A_1We-gTxmNPyrAqNEcDhqhtq1piP6GJPTrPAQlii6DG1WQb3gdsEkLuLDkr3LKDvURIsON3Zkhcjym0Ige_E-sZDLUt_I3vJXUKI4_VMbDnjkv2cyOavEs-g5HDjxRHKhsSqbO7rxPefWe3D7VsoYaJD02mrMipW64VxyDh8lpAYo=w1380-h776-no");
 }
