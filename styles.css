@@ -170,12 +170,14 @@ h3 {
   text-align: center;
   padding: 10px;
   color: #333;
+	margin-bottom: 1rem;
 }
 .word-cloud__word {
   display: inline-block;
   font-size: 18px;
   line-height: 24px;
   color: #90d6f3;
+	font-family: 'Open Sans', sans-serif;
 }
 .word-cloud__word:hover {
   transform: scale(1.1);
@@ -190,15 +192,15 @@ h3 {
   color: #c6e8f7;
 }*/
 .word-cloud__word--small {
-  font-size: 13px;
+  font-size: 12px;
   color: #b0def2;
 }
 .word-cloud__word--large {
-  font-size: 22px;
+  font-size: 20px;
   color: #0fa0dd;
 }
 .word-cloud__word--x-large {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -0.0125em;
   color: #0a79a7;
 }
