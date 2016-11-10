@@ -136,7 +136,7 @@ h2 > a:hover {
   align-items: baseline;
   padding: 10% 0;
 }
-@media screen and (max-width: 792px) {
+@media only screen and (max-width: 792px) {
   #email-and-cloud-wrapper {
     flex-direction: column;
 		align-items: center;
@@ -151,13 +151,13 @@ h2 > a:hover {
 #email-wrapper {
   display: flex;
   flex-direction: column;
-	width: 350px;
+	max-width: 350px;
 }
 #email {
 	margin: 10px auto;
 }
 .word-cloud-wrapper {
-  width: 350px;
+  max-width: 350px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
