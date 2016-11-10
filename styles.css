@@ -122,37 +122,41 @@ h2 > a:hover {
 .content_block_content {
   font-weight: 400;
   letter-spacing: 1.75;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
 }
 
 /* ###################### */
 /* ###### BOTTOM ######## */
 /* ###################### */
 
-#form-and-cloud-wrapper {
+#email-and-cloud-wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   padding: 10% 0;
 }
-@media screen and (max-width: 760px) {
-  #form-and-cloud-wrapper {
+@media screen and (max-width: 792px) {
+  #email-and-cloud-wrapper {
     flex-direction: column;
+		align-items: center;
   }
+	#email-wrapper {
+		margin: 5%;
+	}
   .word-cloud-wrapper {
-    padding-top: 5%;
     order: -1;
   }
 }
-#form-wrapper {
+#email-wrapper {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  margin-top: 45px
+	width: 350px;
+}
+#email {
+	margin: 10px auto;
 }
 .word-cloud-wrapper {
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;*/
   width: 350px;
   margin-top: 0;
   margin-bottom: 0;
@@ -200,7 +204,6 @@ h3 {
 }
 #icon-wrapper {
   display: flex;
-  /*height: 80vh;*/
   justify-content: space-around;
   margin-bottom: 60px;
 }
@@ -236,7 +239,7 @@ footer > a {
 .parallax_image_first {
   background-image: url("https://i.imgur.com/Mw4qkpM.jpg");
 }
-.parallax_image_second { /* this is just a placeholder image */
+.parallax_image_second {
   background-image: url("https://lh3.googleusercontent.com/IJlWAqdrT_iOkRgcTRsi-WP6Wra43MjJBw0dPldHROgiue_ANuf4eiHjiMgIXJAFEDocE_vJfFj8w8-wzouZb5z_MRjmGCmwiFRk2REVqXKQ6X320A1As9dsec2urqo7haeT-koFrh2bxo3tX0ORVl9IqhqhY7Nesvy7dFS_uMws-z6w6ToyDWa74n8HmC2JUQ8S4gzgOLrNWCSVGGVGyrE4u3HVKGgRN5bdzq_uoD6xI7SSGtqgPXc-SDwwvMPen0-EtGTaCkzGiSI552t9FSiYrPOqN5MJ3DyFQCBW2P5A3Nu3we407fAHEGNtBummE52rZ8wu60cmwTw7TEqdPF4HPbkAFG2AdbO2H41Z1fXGNzkjaqhEbnfEw9Xkv8GPGVxZzfEmxb62cdb87_xYzbI6Kodj7s7CODZtXcNvQx0amQ_9i5rTIyUd1HnlyxfGrd1-Mmu_yLVTY03Rbv1JBcfHpLo8Kq090yxjewCsZpum5CQ7XxKGHeQ_PIUuFxRKKmJ9Bv41A02PzUM4itM3iVmUr7F_MjX99496ES2EKVKF1yBY5kHI6i5JCxNgaqGoV_h4VGoy0Tz-0vTC9a1uwrmQ0gdJmbXMxxGhiHMMIOE6sZut=w1380-h776-no");
 }
 .parallax_image_third {

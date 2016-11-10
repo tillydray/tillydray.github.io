@@ -5,12 +5,17 @@
   <link rel="stylesheet" href="styles.css" media="screen" title="no title">
   <link rel="stylesheet" href="emailFormStyles.css" media="screen" title="no title">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="app.js" charset="utf-8"></script>
 
 </head>
 <body>
   <nav>
-    <h2 id="page-title-nav"><a href="#">Jason M. Fry</a></h2>
-    <h2 id="contact-nav"><a href="#">Contact</a></h2>
+    <h2 id="page-title-nav"><a href="http://www.jasonmfry.com">Jason M. Fry</a></h2>
+    <h2 id="contact-nav"><a href="#email-and-cloud-wrapper">Contact</a></h2>
   </nav>
 
   <div class="parallax_section images parallax_image_first text_on_image">
@@ -76,17 +81,13 @@
     What's next?
   </div>
 
-  <div id="form-and-cloud-wrapper">
-    <div id="form-wrapper">
+  <div id="email-and-cloud-wrapper">
+    <div id="email-wrapper">
       <h3>Reach Out</h3>
-      <form class="grayform" action="mailto:me@jasonmfry.com" method="post">
-        <input type="text" name="name" placeholder="name">
-        <input type="text" name="email" placeholder="email">
-        <input type="text" name="subject" placeholder="subject">
-        <textarea name="message" placeholder="message"></textarea>
-        <button type="submit" name="submit">Send</button>
-        <button type="reset" value="Reset">Reset</button>
-      </form>
+      <div class="content_block_content">
+        Interested in hiring me?  Want to discuss upcoming CSS features like Grid Layout?  Or how about Early Modern European memoirs?  I would honored if you emailed me.
+      </div>
+      <a id="email" href="mailto:me@jasonmfry.com"><img class="icon" src="http://www.seguridad.gob.sv/wp-content/uploads/2015/08/icono-email.png" alt="" /></a>
     </div>
     <div class="word-cloud-wrapper">
       <h3>Skills</h3>
