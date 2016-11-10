@@ -59,13 +59,17 @@ nav {
   margin-bottom: 35px;
 }
 #page-title-nav, #contact-nav {
-  padding: 40px 60px;
+	padding: 40px 0;
   font-family: 'Raleway', sans-serif;
   font-size: 1.9rem;
   text-transform: uppercase;
 }
+#page-title-nav {
+	padding-left: 6%;
+}
 #contact-nav {
   font-size: 1.25rem;
+	padding-right: 6%;
 }
 h2 > a {
   text-decoration: none;
@@ -108,7 +112,6 @@ h2 > a:hover {
   letter-spacing: 0.5rem;
 }
 .content_block_wrapper {
-  /*height: 70vh;*/
   padding: 15% 10%;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
@@ -137,12 +140,16 @@ h2 > a:hover {
   padding: 10% 0;
 }
 @media only screen and (max-width: 792px) {
+	.content_block_wrapper {
+		padding: 20% 5%;
+	}
   #email-and-cloud-wrapper {
     flex-direction: column;
 		align-items: center;
+		margin: 15% 5%;
   }
 	#email-wrapper {
-		margin: 5%;
+		margin-top: 15%;
 	}
   .word-cloud-wrapper {
     order: -1;
@@ -164,11 +171,11 @@ h2 > a:hover {
   list-style: none;
   text-align: justify;
 }
-h3 {
+.bottom-section-titles {
   font-family: 'Raleway', sans-serif;
   font-size: 2.5rem;
   text-align: center;
-  padding: 10px;
+	padding: 10px 0;
   color: #333;
 	margin-bottom: 1rem;
 }
@@ -208,9 +215,11 @@ h3 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 60px;
+	flex-wrap: wrap;
 }
 .icon {
   max-width: 75px;
+	padding: 10%;
 }
 .icon:hover {
   transform: scale(1.1);
