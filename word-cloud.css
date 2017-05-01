@@ -1,0 +1,41 @@
+@media only screen and (max-width: 792px) {
+  .word-cloud-wrapper {
+    order: -1; } }
+.word-cloud-wrapper {
+  max-width: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: justify; }
+
+.word-cloud__word {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #90d6f3;
+  font-family: "Open Sans", sans-serif; }
+  .word-cloud__word:hover {
+    transform: scale(1.1); }
+
+/*.word-cloud__word--x-small, */
+.word-cloud__word--small {
+  font-weight: 100;
+  font-size: 12px;
+  color: #b0def2; }
+
+/* Unused for now */
+/*.word-cloud__word--x-small { */
+/*  font-size: 10px; */
+/*  color: #c6e8f7; */
+/*} */
+.word-cloud__word--large {
+  font-size: 20px;
+  color: #0fa0dd; }
+
+.word-cloud__word--x-large {
+  font-size: 28px;
+  letter-spacing: -0.0125em;
+  color: #0a79a7; }
+
+/*# sourceMappingURL=word-cloud.css.map */
