@@ -134,6 +134,22 @@
 
   <footer>
     Photos courtesy of <a href="http://www.citylight-studio.com/">City Light Studio</a> and <a href="http://www.jasonmfry.com">Jason Fry</a>
+    <script type="text/javascript">
+      feathr_account_id = "599d7daa2c3f686aa291b5d5";
+      (function () {
+        var loadBoomer = function () {
+          if (!/complete|loaded/.test(document.readyState)) { setTimeout(loadBoomer, 10); return }
+          var scr = document.createElement("script");
+          scr.src = "//cdn.feathr.co/js/boomerang.min.js";
+          scr.async = true;
+          __feathr_loaded = true;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (/complete|loaded/.test(document.readyState)) { setTimeout(loadBoomer, 10); }
+        else if (window.addEventListener) { window.addEventListener('load', loadBoomer, false); }
+        else { window.attachEvent('onload', loadBoomer) }
+      }());
+    </script>
   </footer>
 </body>
 </html>
