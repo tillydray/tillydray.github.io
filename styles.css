@@ -156,6 +156,21 @@ h2 > a {
   align-items: baseline;
   padding: 10% 0; }
 
+  .pulse-color {
+    animation-name: pulse;
+    animation: pulse 2s ease 1.1s;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #FFFFFF;
+    }
+    100% {
+      background-color: #FFFB00;
+    }
+  }
+  
+
 @media only screen and (max-width: 792px) {
   .content_block_wrapper {
     padding: 20% 5%; }
