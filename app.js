@@ -1,9 +1,9 @@
 // Smooth Scrolling script from css-tricks.com
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
+$(() => {
+  $('a[href*="#"]:not([href="#"])').click(() => {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
