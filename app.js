@@ -1,16 +1,12 @@
-// Smooth Scrolling script from css-tricks.com
-// https://css-tricks.com/snippets/jquery/smooth-scrolling/
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1100);
-        return false;
-      }
-    }
+$(() => {
+  const $emailWrapper = $('#email-wrapper');
+  $('a[href="#email-wrapper"]').click(() => {
+    $('html, body').animate({
+      scrollTop: $emailWrapper.offset().top
+    }, 1100, function() {
+      $emailWrapper.fadeOut(500, function() {
+        $emailWrapper.fadeIn(500);
+      });
+    });
   });
 });
