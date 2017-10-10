@@ -127,7 +127,7 @@ h2 > a {
 .text_on_image {
   font-size: 5rem;
   text-align: center;
-  color: #222;
+  color: #121212;
   font-family: Raleway, sans-serif;
   font-weight: 500;
   letter-spacing: 0.5rem;
@@ -142,14 +142,19 @@ h2 > a {
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2.5rem; }
 
 .content_block_content {
   font-weight: 400;
   letter-spacing: 1.75;
   font-family: Open Sans, sans-serif;
   line-height: 1.5;
-  text-align: justify; }
+  text-align: justify;
+  font-size: 1.5rem; }
+
+.content_block_content img {
+  width: 36px;
+  vertical-align: bottom; }
 
 #email-and-cloud-wrapper {
   display: flex;
@@ -172,6 +177,9 @@ h2 > a {
   display: flex;
   flex-direction: column;
   max-width: 350px; }
+
+#email-wrapper .content_block_content {
+  font-size: 1.2rem; }
 
 #email {
   margin: 10px auto; }
@@ -212,14 +220,14 @@ footer {
   background-position: 75%; }
 
 .parallax_image_second {
-  background-image: url("https://goo.gl/oiD2R9");
+  background-image: url("https://goo.gl/LEhARW");
   background-position: center right; }
 
 .parallax_image_third {
-  background-image: url("https://goo.gl/QfP4zN");
+  background-image: url("https://goo.gl/EiseoM");
   background-position: 75%; }
 
 .parallax_image_fourth {
-  background-image: url("https://goo.gl/kwqiMk"); }
+  background-image: url("https://goo.gl/JNWv2f"); }
 
 /*# sourceMappingURL=styles.css.map */
