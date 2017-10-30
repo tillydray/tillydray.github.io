@@ -215,27 +215,31 @@ footer {
   footer > a {
     color: #111; }
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/kVSgDZ"); } }
-@media only screen and (min-width: 960px) {
+@media screen and (max-width: 960px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/LvoyNe"); } }
-@media only screen and (min-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/cwfX79"); } }
-@media only screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/MhjEpM"); } }
-@media only screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/vjc3bE"); } }
-@media only screen and (min-width: 2560px) {
+@media screen and (max-width: 2560px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/1CbnBY"); } }
-@media only screen and (min-width: 3960px) {
+@media screen and (max-width: 3960px) {
   .parallax_image_first {
     background-image: url("http://goo.gl/adQjGf"); } }
+@media screen and (min-width: 3961px) {
+  .parallax_image_first {
+    background-image: url("http://goo.gl/adQjGf");
+    background-position: 75%; } }
 .parallax_image_first {
   background-position: 75%; }
 
