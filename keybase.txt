@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jasonmfry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.jasonmfry.com
+  * I am jasonmfry (https://keybase.io/jasonmfry) on keybase.
+  * I have a public key ASDPZHDFZgvKhIfpTIB2qKEl-00Daqz2ncLOQL3e6XejCQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204a5118451920f0f83010206437b91d9562b9b7193cde4257d2c55c93d1374b3c0a",
+      "host": "keybase.io",
+      "kid": "0120cf6470c5660bca8487e94c8076a8a125fb4d036aacf69dc2ce40bddee977a3090a",
+      "uid": "7ba4df4adb9d0efbe6646cb6d012ff19",
+      "username": "jasonmfry"
+    },
+    "merkle_root": {
+      "ctime": 1530389043,
+      "hash": "05b45675c8063ffe93e8fca74610176815b81aead10d6b5fff354a6d33e5b8a5a36dfe11853da99d13ab7ec4a0586347d85e66718fcf3f89e2560a0217d44f42",
+      "hash_meta": "b25176855894e0da3ddec59350d12abaeb33294bc15d726d8da79f324195015f",
+      "seqno": 3180428
+    },
+    "service": {
+      "entropy": "qHopdai8AsKAYhpbIGs+huA3",
+      "hostname": "www.jasonmfry.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1530389135,
+  "expire_in": 504576000,
+  "prev": "abbbddb92210b689636e7e0c332195e6f6061e4362644c05bfac0ed7472fbd7c",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz2RwxWYLyoSH6UyAdqihJftNA2qs9p3CzkC93ul3owkKp3BheWxvYWTESpcCJMQgq7vduSIQtoljbn4MMyGV5vYGHkNiZEwFv6wO10cvvXzEIAsmCCtHPU/zTuScy2eq84EnrgL7BqsZsri2WdmbFqTNAgHCo3NpZ8RAF2DtrgfgA6yOuFzh7QymQ024LF6YxaFqIyxNECzET8zM3TjeVsrFHSRx2xy5g/hfEcR6pKXwypY5OKPAWqZEA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHUoz/OfH0Zmrn9JPXYT3tGCt4ZMl3pPm1RKYII4XJ0bo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jasonmfry
+
+==================================================================
