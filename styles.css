@@ -220,15 +220,15 @@ footer {
   background-position: 50%; }
 
 .parallax_image_second {
-  background-image: url("https://goo.gl/LEhARW");
+  background-image: url("./images/brick_wall_tinyjpg.JPG");
   background-position: center right; }
 
 .parallax_image_third {
-  background-image: url("https://goo.gl/EiseoM");
+  background-image: url("./images/Hagood_sunset_tinyjpg.JPG");
   background-position: 75%; }
 
 .parallax_image_fourth {
-  background-image: url("https://goo.gl/JNWv2f"); }
+  background-image: url("./images/Caesar's_head_tinyjpg.JPG"); }
 
 .lazyImage {
   background-color: grey; }
