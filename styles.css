@@ -85,7 +85,7 @@ nav {
 
 #navStandardStyles, #page-title-nav, #contact-nav {
   padding: 40px 0;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 1.9rem;
   text-transform: uppercase; }
 
@@ -127,13 +127,13 @@ h2 > a {
 .text_on_image {
   font-size: 5rem;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.5rem; }
 
 .content_block_wrapper {
   padding: 15% 10%;
-  font-family: Open Sans, sans-serif;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
   line-height: 1.5; }
 
 .content_block_heading {
@@ -145,7 +145,7 @@ h2 > a {
 .content_block_content {
   font-weight: 400;
   letter-spacing: 1.75;
-  font-family: Open Sans, sans-serif;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   text-align: justify;
   font-size: 1.5rem; }
@@ -183,7 +183,7 @@ h2 > a {
   margin: 10px auto; }
 
 .bottom-section-titles {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   text-align: center;
   padding: 10px 0;
