@@ -213,26 +213,11 @@ footer {
   footer > a {
     color: #111; }
 
-@media only screen and (max-width: 768px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/kVSgDZ"); } }
-@media only screen and (max-width: 960px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/LvoyNe"); } }
-@media only screen and (max-width: 1080px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/cwfX79"); } }
-@media only screen and (max-width: 1440px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/MhjEpM"); } }
-@media only screen and (max-width: 1920px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/vjc3bE"); } }
-@media only screen and (max-width: 2560px) {
-  .parallax_image_first {
-    background-image: url("http://goo.gl/1CbnBY"); } }
 .parallax_image_first {
-  background-position: 75%; }
+  background-image: url("./images/Headshot_transparent_background_small_compressed.png"); }
+
+.parallax_image_first {
+  background-position: 50%; }
 
 .parallax_image_second {
   background-image: url("https://goo.gl/LEhARW");
