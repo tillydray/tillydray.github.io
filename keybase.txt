@@ -4,7 +4,7 @@ https://keybase.io/jasonmfry
 
 I hereby claim:
 
-  * I am an admin of http://www.jasonmfry.com
+  * I am an admin of https://www.jasonmfry.com
   * I am jasonmfry (https://keybase.io/jasonmfry) on keybase.
   * I have a public key ASDPZHDFZgvKhIfpTIB2qKEl-00Daqz2ncLOQL3e6XejCQo
 
@@ -28,7 +28,7 @@ To do so, I am signing this object:
     "service": {
       "entropy": "qHopdai8AsKAYhpbIGs+huA3",
       "hostname": "www.jasonmfry.com",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 2
