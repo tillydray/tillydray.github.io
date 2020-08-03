@@ -1,66 +1,74 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v2.0 | 20110126 */
-/* License: none (public domain) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 q:before, q:after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-/* END CSS RESET */
-/* BEGIN MY PAGE STYLING */
 @media only screen and (max-width: 792px) {
   .word-cloud-wrapper {
-    order: -1; } }
+    order: -1;
+  }
+}
 .word-cloud-wrapper {
   max-width: 350px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  text-align: justify; }
+  text-align: justify;
+}
 
 .word-cloud__word {
   display: inline-block;
   font-size: 18px;
   line-height: 24px;
   color: #90d6f3;
-  font-family: "Open Sans", sans-serif; }
-  .word-cloud__word:hover {
-    transform: scale(1.1); }
+  font-family: "Open Sans", sans-serif;
+}
+.word-cloud__word:hover {
+  transform: scale(1.1);
+}
 
 /*.word-cloud__word--x-small, */
 .word-cloud__word--small {
   font-weight: 100;
   font-size: 12px;
-  color: #b0def2; }
+  color: #b0def2;
+}
 
 /* Unused for now */
 /*.word-cloud__word--x-small { */
@@ -69,39 +77,47 @@ table {
 /*} */
 .word-cloud__word--large {
   font-size: 20px;
-  color: #0fa0dd; }
+  color: #0fa0dd;
+}
 
 .word-cloud__word--x-large {
   font-size: 28px;
   letter-spacing: -0.0125em;
-  color: #0a79a7; }
+  color: #0a79a7;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 115px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+}
 
-#navStandardStyles, #page-title-nav, #contact-nav {
+#navStandardStyles, #contact-nav, #page-title-nav {
   padding: 40px 0;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 1.9rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 #page-title-nav {
-  padding-left: 6%; }
+  padding-left: 6%;
+}
 
 #contact-nav {
   font-size: 1.25rem;
-  padding-right: 6%; }
+  padding-right: 6%;
+}
 
 h2 > a {
   text-decoration: none;
-  color: #444; }
-  h2 > a:hover {
-    font-size: 103%;
-    color: #999; }
+  color: #444;
+}
+h2 > a:hover {
+  font-size: 103%;
+  color: #999;
+}
 
 .parallax_section {
   height: 92vh;
@@ -112,35 +128,39 @@ h2 > a {
   position: relative;
   transform: translateZ(1px) scale(1.08);
   transform-origin: bottom;
-  /* prevents white space from showing above the image when it's ~98% off-screen */ }
+}
 
 .text_on_image, .content_block_wrapper {
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .images {
   opacity: 0.7;
   max-width: 100%;
-  /*height: auto; */ }
+}
 
 .text_on_image {
   font-size: 5rem;
   text-align: center;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 500;
-  letter-spacing: 0.5rem; }
+  letter-spacing: 0.5rem;
+}
 
 .content_block_wrapper {
   padding: 15% 10%;
   font-family: Open Sans, Arial, Helvetica, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 .content_block_heading {
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+}
 
 .content_block_content {
   font-weight: 400;
@@ -148,39 +168,49 @@ h2 > a {
   font-family: Open Sans, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   text-align: justify;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .content_block_content img {
   width: 36px;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+}
 
 #email-and-cloud-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-  padding: 10% 0; }
+  padding: 10% 0;
+}
 
 @media only screen and (max-width: 792px) {
   .content_block_wrapper {
-    padding: 20% 5%; }
+    padding: 20% 5%;
+  }
 
   #email-and-cloud-wrapper {
     flex-direction: column;
     align-items: center;
-    margin: 15% 5%; }
+    margin: 15% 5%;
+  }
 
   #email-wrapper {
-    margin-top: 15%; } }
+    margin-top: 15%;
+  }
+}
 #email-wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 350px; }
+  max-width: 350px;
+}
 
 #email-wrapper .content_block_content {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 #email {
-  margin: 10px auto; }
+  margin: 10px auto;
+}
 
 .bottom-section-titles {
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -188,19 +218,23 @@ h2 > a {
   text-align: center;
   padding: 10px 0;
   color: #333;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 #icon-wrapper {
   display: flex;
   justify-content: space-around;
   margin-bottom: 60px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .icon {
   max-width: 75px;
-  padding: 10%; }
-  .icon:hover {
-    transform: scale(1.1); }
+  padding: 10%;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
 
 footer {
   font-style: italic;
@@ -209,22 +243,28 @@ footer {
   text-align: center;
   padding: 5vh;
   color: #111;
-  background-color: #eee; }
-  footer > a {
-    color: #111; }
+  background-color: #eee;
+}
+footer > a {
+  color: #111;
+}
 
 .parallax_image_second {
   background-image: url("./images/brick_wall_tinyjpg.JPG");
-  background-position: center right; }
+  background-position: center right;
+}
 
 .parallax_image_third {
   background-image: url("./images/Hagood_sunset_tinyjpg.JPG");
-  background-position: 75%; }
+  background-position: 75%;
+}
 
 .parallax_image_fourth {
-  background-image: url("./images/Caesar's_head_tinyjpg.JPG"); }
+  background-image: url("./images/Caesar's_head_tinyjpg.JPG");
+}
 
 .lazyImage {
-  background-color: grey; }
+  background-color: grey;
+}
 
 /*# sourceMappingURL=styles.css.map */
